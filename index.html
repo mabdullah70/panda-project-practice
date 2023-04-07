@@ -10,8 +10,241 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>my name is abdullah al mamun</h1>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-expand-md bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="image/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Backpack">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Subscribe">Subscribe</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
 
+    <!-- Navbar Section ends  -->
+
+    <!-- carousel Section start  -->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-md-7">
+                        <h1>MEGA TV</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde velit repudiandae rem fuga ut sunt!</p>
+                        <h5 class="price">$1200</h5>
+                        <button class="button-buy-now">BUY NOW>></button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="image/tv.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-md-7">
+                        <h1>MEGA HEADPHONE</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde velit repudiandae rem fuga ut sunt!</p>
+                        <h5 class="price">$600</h5>
+                        <button class="button-buy-now">BUY NOW>></button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="image/headphone.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-md-7">
+                        <h1>MEGA XBOX</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde velit repudiandae rem fuga ut sunt!</p>
+                        <h5 class="price" >$400</h5>
+                        <button class="button-buy-now">BUY NOW>></button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="image/xbox.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <!-- carousel Section ends  -->
+
+    <!-- catagories section starts -->
+
+
+    <div class="container catagories ">
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class="cat1 d-flex justify-content-between align-items-center">
+                    <h1>Watch</h1>
+                    <img src="image/watch.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cat2 d-flex justify-content-between align-items-center">
+                    <h1>Bag</h1>
+                    <img src="image/bag.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cat3 d-flex justify-content-between align-items-center">
+                    <h1>Shoes</h1>
+                    <img src="image/shoes.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- catagories section ends -->
+
+    <!-- shoes section starts  -->
+    
+    <div class="container" id="Shoes">
+        <h3>Shoes</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Supply 350</h5>
+                  <p class="card-text">A shoe is an item of footwear intended to protect and comfort the human foot.</p>
+                  <h5>$320</h5>
+                  <button class="button-buy-now">BUY NOW>></button>
+                </div>
+                <div class="card-footer d-flex justify-content-center align-items-center">
+                  <small class="text-body-secondary">ADD TO CART</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nike 360</h5>
+                  <p class="card-text">A shoe is an item of footwear intended to protect and comfort the human foot.</p>
+                  <h5>$420</h5>
+                  <button class="button-buy-now">BUY NOW>></button>
+                </div>
+                <div class="card-footer d-flex justify-content-center align-items-center">
+                  <small class="text-body-secondary">ADD TO CART</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Red Airmax</h5>
+                  <p class="card-text">A shoe is an item of footwear intended to protect and comfort the human foot.</p>
+                  <h5>$700</h5>
+                  <button class="button-buy-now">BUY NOW>></button>
+                </div>
+                <div class="card-footer d-flex justify-content-center align-items-center">
+                  <small class="text-body-secondary ">ADD TO CART</small>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- shoes section ends  -->
+
+    <!-- backpack section starts -->
+
+    <div class="container" id="Backpack">
+        <h3>Backpack</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Red Bag</h5>
+                  <p class="card-text">A flexible container in a pouch or bag is a common convention</p>
+                  <h5>$320</h5>
+                  <button class="button-buy-now">BUY NOW>></button>
+                </div>
+                <div class="card-footer d-flex justify-content-center align-items-center">
+                  <small class="text-body-secondary">ADD TO CART</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Blue Bag</h5>
+                  <p class="card-text">A flexible container in a pouch or bag is a common convention</p>
+                  <h5>$450</h5>
+                  <button class="button-buy-now">BUY NOW>></button>
+                </div>
+                <div class="card-footer d-flex justify-content-center align-items-center">
+                  <small class="text-body-secondary">ADD TO CART</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="image/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Black Bag</h5>
+                  <p class="card-text">A flexible container in a pouch or bag is a common convention.</p>
+                  <h5>$600</h5>
+                  <button class="button-buy-now">BUY NOW>></button>
+                </div>
+                <div class="card-footer d-flex justify-content-center align-items-center">
+                  <small class="text-body-secondary">ADD TO CART</small>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- backpack section ends -->
+
+    <!-- subscribe section starts -->
+    <div class="container d-flex justify-content-center align-items-center" id="Subscribe">
+        <div class="">
+            <h3>LET'S STAY IN TOUCH</h3>
+            <p class="letter">Get Update On sales , Specials and more</p>
+            <input class="form-control"  type="email" placeholder="Enter Your Email">
+            <button class="button-buy-now">SUBMIT</button>
+        </div>
+    </div>
+    <!-- subscribe section ends -->
+    <!-- footer section Starts  -->
+    <footer class="d-flex justify-content-center align-items-center">
+        <small>&copy;2023,Panda All Right Reserved.</small>
+    </footer>
+    <!-- footer section ends  -->
 
 
 
